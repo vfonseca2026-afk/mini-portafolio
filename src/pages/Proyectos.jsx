@@ -1,36 +1,34 @@
-import TarjetaProyecto from '../components/TarjetaProyecto';
+import TarjetaProyecto from '../components/TarjetaProyecto'
 
-function Proyectos() {
-  const listaProyectos = [
-    {
-      id: 1,
-      titulo: 'Mini Portafolio React',
-      descripcion: 'Sitio web personal desarrollado con React, React Router y Vite.',
-      enlace: 'https://github.com/tu-usuario/mini-portafolio',
-    },
-    {
-      id: 2,
-      titulo: 'API Backend FastAPI',
-      descripcion: 'Desarrollo de API con contratos de respuesta estandarizados.',
-      enlace: 'https://github.com/tu-usuario/repositorio-backend',
-    },
-  ];
+const proyectos = [
+  {
+    titulo: 'Gestor de Tareas Kanban',
+    descripcion:
+      'Aplicación web para la gestión de tareas con metodología Kanban. Desarrollada con React, TypeScript y Tailwind CSS.',
+    url: '#',
+  },
+  {
+    titulo: 'Portafolio Personal',
+    descripcion:
+      'Sitio web personal para mostrar mis habilidades y proyectos. Desarrollado con React y React Router.',
+    url: '#',
+  },
+]
 
+export default function Proyectos() {
   return (
-    <section>
-      <h2>Mis Proyectos</h2>
-      <div className="contenedor-proyectos">
-        {listaProyectos.map((proy) => (
-          <TarjetaProyecto
-            key={proy.id}
-            titulo={proy.titulo}
-            descripcion={proy.descripcion}
-            enlace={proy.enlace}
-          />
-        ))}
+    <section className="section">
+      <div className="container">
+        <h1>Mis Proyectos</h1>
+        <p className="section__subtitle">
+          Algunos de los proyectos en los que he trabajado.
+        </p>
+        <div className="projects">
+          {proyectos.map((p) => (
+            <TarjetaProyecto key={p.titulo} {...p} />
+          ))}
+        </div>
       </div>
     </section>
-  );
+  )
 }
-
-export default Proyectos;
