@@ -2,16 +2,17 @@ import TarjetaProyecto from '../components/TarjetaProyecto'
 
 const proyectos = [
   {
-    titulo: 'Gestor de Tareas Kanban',
+    titulo: 'Psicoanálisis Conductual',
     descripcion:
-      'Aplicación web para la gestión de tareas con metodología Kanban. Desarrollada con React, TypeScript y Tailwind CSS.',
-    url: '#',
+      'Un proyecto creado por mi durante la educación media dentro del instituto superior de comercio (insuco). Tiene la finalidad de recopilar y analizar distintos tipos de condiciones que afectan la conducta mediante la percepción del afectado.',
+    enlace:
+      'https://vfonseca2026-afk.github.io/ICINF1107_Portafolio_Vicente-Fonseca/proyectos/psicoanalisis-conductual/index.html',
   },
   {
-    titulo: 'Portafolio Personal',
+    titulo: 'Bitácora Fungi',
     descripcion:
-      'Sitio web personal para mostrar mis habilidades y proyectos. Desarrollado con React y React Router.',
-    url: '#',
+      'Este proyecto fue creado con la finalidad de dar a conocer la diversidad Fungi existente en la comuna de Temuco, recopilando así avistamientos, zonas e información acerca de las distintas especies observadas.',
+    enlace: 'https://vfonseca2026-afk.github.io/ICINF1107_Portafolio_Vicente-Fonseca/proyectos/HongosTemuco/HongosTemuco.html', 
   },
 ]
 

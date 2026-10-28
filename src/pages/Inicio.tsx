@@ -14,7 +14,7 @@ export default function Inicio() {
       <section className="hero">
         <div className="container hero__inner">
           <div className="hero__text">
-            <h1>Hola, soy Tu Nombre</h1>
+            <h1>Hola, soy Vicente Fonseca</h1>
             <h2>Desarrollador/a Frontend</h2>
             <p>
               Bienvenido a mi portafolio. Aquí puedes conocer más sobre mí,

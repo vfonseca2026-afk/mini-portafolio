@@ -8,15 +8,14 @@ export default function SobreMi() {
         <div className="about__content">
           <h1>Sobre mí</h1>
           <p>
-            Soy [Tu Nombre], estudiante de Ingeniería Civil Informática. Me
+            Soy Vicente, estudiante de Ingeniería Civil Informática. Me
             apasiona el desarrollo web y me interesa crear soluciones
             tecnológicas que mejoren la experiencia de las personas.
           </p>
 
           <h2>¿Qué estudio?</h2>
           <p>
-            Estudio Ingeniería Civil Informática en el Instituto Tecnológico
-            de la Universidad Católica de Temuco.
+            Estudio Ingeniería Civil Informática en la Universidad Católica de Temuco.
           </p>
 
           <h2>¿Qué me interesa?</h2>
